@@ -5,7 +5,8 @@ import AppTextInput from "../AppTextInput";
 import ErrorMessage from "./ErrorMessage";
 
 function AppFormField({ name, width, ...otherProps }) {
-  const { setFieldTouched, handleChange, errors, touched } = useFormikContext();
+  const { setFieldValue, setFieldTouched, values, errors, touched } =
+    useFormikContext();
 
   return (
     <>
@@ -16,7 +17,8 @@ function AppFormField({ name, width, ...otherProps }) {
         // autoCorrect={false}
         // keyboardType="email-address"
         width={width}
-        onChangeText={handleChange(name)}
+        onChangeText={(text) => setFieldValue(name, text)}
+        value={values[name]}
         onBlur={() => setFieldTouched(name)} // ensures the error messages dont appear until user has clicked out of email
         {...otherProps}
         // textContentType="emailAddress"

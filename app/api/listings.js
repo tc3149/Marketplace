@@ -4,7 +4,7 @@ const endpoint = "/listings";
 
 const getListings = () => apiClient.get(endpoint);
 
-const addListing = (listing) => {
+const addListing = (listing, onUploadProgress) => {
   // http protocol each request has a special header called content type
   // json object => application/json
   // files or images => multipart/form-data
@@ -26,7 +26,7 @@ const addListing = (listing) => {
 
   return apiClient.post(endpoint, data, {
     onUploadProgress: (progress) =>
-      console.log(progress.loaded / progress.total),
+      onUploadProgress(progress.loaded / progress.total),
   });
 };
 
