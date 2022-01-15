@@ -10,6 +10,7 @@ import AuthNavigator from "./app/navigation/AuthNavigator";
 import navigationTheme from "./app/navigation/navigationTheme";
 import AppNavigator from "./app/navigation/AppNavigator";
 import ListingEditScreen from "./app/screens/ListingEditScreen";
+import NetInfo from '@react-native-community/netinfo'
 
 const Link = () => {
   const navigation = useNavigation();
@@ -68,9 +69,14 @@ const TabNavigator = () => (
 );
 
 export default function App() {
+
+  NetInfo.addEventListener(netInfo => console.log(netInfo)) // function gets called everytim there is a change in network status
+
   return (
-    <NavigationContainer theme={navigationTheme}>
-      <AppNavigator />
-    </NavigationContainer>
+    // <NavigationContainer theme={navigationTheme}>
+    //   <AppNavigator />
+    // </NavigationContainer>
+
+
   );
 }
