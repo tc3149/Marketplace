@@ -4,7 +4,15 @@ Marketplace is a summer personal project I built to practice and test my React N
 
 No plans as of yet (27-Jan-22) to release or deploy to public appstores.
 
-![Image!](https://user-images.githubusercontent.com/65510993/151416554-053cde69-c26f-4b50-bcda-32eb0f51f43f.png)
+<img src="https://user-images.githubusercontent.com/65510993/151417385-fdf1c42d-b2f1-4474-9b21-0535635ca5d3.jpg" width="250">
+
+<img src="https://user-images.githubusercontent.com/65510993/151416562-85dd884f-1ee7-4993-bedf-267663d693ea.png" width="250">
+
+<img src="https://user-images.githubusercontent.com/65510993/151416569-5177d7e8-bd69-4cd8-b585-5f46d420f71c.png![image](https://user-images.githubusercontent.com/65510993/151418256-f6cd9e3b-d6cc-4067-8441-d711d9808e2e.png)
+" width="250">
+
+
+
 
 
 ## Usage
