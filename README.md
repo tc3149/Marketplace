@@ -8,11 +8,7 @@ No plans as of yet (27-Jan-22) to release or deploy to public appstores.
 
 <img src="https://user-images.githubusercontent.com/65510993/151416562-85dd884f-1ee7-4993-bedf-267663d693ea.png" width="250">
 
-<img src="https://user-images.githubusercontent.com/65510993/151416569-5177d7e8-bd69-4cd8-b585-5f46d420f71c.png![image](https://user-images.githubusercontent.com/65510993/151418256-f6cd9e3b-d6cc-4067-8441-d711d9808e2e.png)
-" width="250">
-
-
-
+<img src="https://user-images.githubusercontent.com/65510993/151416569-5177d7e8-bd69-4cd8-b585-5f46d420f71c.png" width="250">
 
 
 ## Usage
